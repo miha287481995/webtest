@@ -216,6 +216,10 @@ body{
 .form__input_style:-moz-placeholder           {color:#969191; font-family: 'Tahoma'; font-weight: 400; font-size: 24px; letter-spacing: 1px;}/* Firefox 18- */
 .form__input_style:-ms-input-placeholder      {color:#969191; font-family: 'Tahoma'; font-weight: 400; font-size: 24px; letter-spacing: 1px;}
 
+input[type="submit"]{ -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none; }
+
 .form__send{
     background: #d91a1a;
     border: none;
